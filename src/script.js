@@ -39,26 +39,9 @@ if (window.innerWidth <= 460) {
 }
 
 $( document ).ready(function() {
-  selectAll('.section').style('height', window.innerHeight + 100);
+  selectAll('.section').style('height', window.innerWidth/2 + 200);
 });
 
-var rtime;
-var timeout = false;
-var delta = 200;
-$(window).resize(function() {
-    rtime = new Date();
-    if (timeout === false) {
-        timeout = true;
-        setTimeout(resizeend, delta);
-    }
+$( window ).resize(function() {
+  selectAll('.section').style('height', window.innerWidth/2 + 200);
 });
-
-
-function resizeend() {
-    if (new Date() - rtime < delta) {
-        setTimeout(resizeend, delta);
-    } else {
-        timeout = false;
-        selectAll('.section').style('height', window.innerHeight + 100);
-    }               
-}
