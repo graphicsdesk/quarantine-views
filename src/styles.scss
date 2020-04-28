@@ -1,4 +1,4 @@
-@import 'styles/spectate';
+@import "styles/spectate";
 
 // Uncomment the next line if this project is an full-page Eye lead
 // @import 'styles/eye-lead-ellipsis';
@@ -8,4 +8,58 @@
 body {
   // Arc's overflow hidden on <body> messes up position sticky
   overflow-x: visible !important;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 100vw;
+  .illo, .text {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50vw;
+  }
+  .illo {
+    background-size: cover;
+  }
+  .text {
+  }
+
+  #first{
+    background-image:url('../illos/ashleyjiao.jpg');
+  }
+  #second{
+    background-image:url('../illos/natalietak.jpg');
+  }
+  #third{
+    background-image:url('../illos/tinawang.jpg');
+  }
+  #fourth{
+    background-image:url('../illos/angelawei.jpg');
+  }
+  #fifth{
+    background-image:url('../illos/helenyang.png');
+  }
+
+  #seventh{
+    background-image:url('../illos/elliesoh.jpeg');
+  }
+  #eighth{
+    background-image:url('../illos/liznichols.jpeg');
+  }
+  #ninth{
+    background-image:url('../illos/BrendaHuang.png');
+  }
+  #tenth{
+    background-image:url('../illos/lizaevseeva.jpg');
+  }
+}
+
+.even {
+  background-color:#e0e0e0;
+}
+.odd {
+  background-color:#333;
 }
