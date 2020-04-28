@@ -15,7 +15,8 @@ body {
   flex-direction: row;
   justify-content: space-around;
   max-width: 100vw;
-  .illo, .text {
+  .illo,
+  .text {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -23,45 +24,61 @@ body {
   }
   .illo {
     background-size: cover;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: 100% 100%;
   }
   .text {
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    .quote {
+      margin-left: 15%;
+      margin-right: 15%;
+      text-align: left;
+      flex-direction: column;
+    }
+    .author {
+    }
   }
 
-  #first{
-    background-image:url('../illos/ashleyjiao.jpg');
+  #first {
+    background-image: url("../illos/ashleyjiao.jpg");
   }
-  #second{
-    background-image:url('../illos/natalietak.jpg');
+  #second {
+    background-image: url("../illos/natalietak.jpg");
   }
-  #third{
-    background-image:url('../illos/tinawang.jpg');
+  #third {
+    background-image: url("../illos/tinawang.jpg");
   }
-  #fourth{
-    background-image:url('../illos/angelawei.jpg');
+  #fourth {
+    background-image: url("../illos/angelawei.jpg");
   }
-  #fifth{
-    background-image:url('../illos/helenyang.png');
+  #fifth {
+    background-image: url("../illos/helenyang.png");
   }
 
-  #seventh{
-    background-image:url('../illos/elliesoh.jpeg');
+  #seventh {
+    background-image: url("../illos/elliesoh.jpeg");
   }
-  #eighth{
-    background-image:url('../illos/liznichols.jpeg');
+  #eighth {
+    background-image: url("../illos/liznichols.jpeg");
   }
-  #ninth{
-    background-image:url('../illos/BrendaHuang.png');
+  #ninth {
+    background-image: url("../illos/BrendaHuang.png");
   }
-  #tenth{
-    background-image:url('../illos/lizaevseeva.jpg');
+  #tenth {
+    background-image: url("../illos/lizaevseeva.jpg");
   }
 }
 
 .even {
-  background-color:#bbcad7;
+  background-color: #bbcad7;
 }
 .odd {
-  background-color:#333;
+  background-color: #333;
+}
+
+.white {
+  color: white;
 }
