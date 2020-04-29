@@ -20,9 +20,7 @@
     "sass": "^1.23.0"
   },
   "dependencies": {
-    "d3-selection": "^1.4.1",
     "enter-view": "^2.0.0",
-    "jquery": "^3.5.0",
     "text-balancer": "^1.0.5"
   },
   "browserslist": [
