@@ -39,9 +39,11 @@ if (window.innerWidth <= 460) {
 }
 
 $( document ).ready(function() {
-  selectAll('.section').style('height', window.innerWidth/2 + 200);
+  if (window.innerWidth > 500)
+    selectAll('.section').style('height', window.innerWidth/2 + 200);
 });
 
 $( window ).resize(function() {
-  selectAll('.section').style('height', window.innerWidth/2 + 200);
+  if (window.innerWidth > 500)
+    selectAll('.section').style('height', window.innerWidth/2 + 200);
 });

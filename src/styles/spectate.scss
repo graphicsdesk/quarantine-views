@@ -17,6 +17,7 @@ h1, p {
   color: #121212;
 }
 
+
 a {
   color: #337ab7;
   text-decoration: none;
@@ -59,7 +60,7 @@ header {
 
   .deck {
     font-family: $graphik;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.45;
     margin-bottom: 14px;
     text-align: right;
@@ -294,22 +295,6 @@ header {
   }
 }
 
-.intro {
-  font-family: $georgia;
-  margin-top:0px;
-  padding-top:50px;
-  padding-bottom:50px;
-  font-size: 19px;
-  line-height: 1.63;
-  width:50%;
-  margin-left: auto;
-  margin-right: auto;
-  p {
-    color:white;
-    margin-top:50px;
-    margin-bottom:50px;
-  }
-}
 
 .dinkus {
   text-align: center;
