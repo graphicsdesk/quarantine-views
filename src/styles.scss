@@ -3,7 +3,7 @@
 // Uncomment the next line if this project is an full-page Eye lead
 // @import 'styles/eye-lead-ellipsis';
 // Uncomment the next line if this project is a News story
-// @import 'styles/news-ellipsis';
+@import 'styles/news-ellipsis';
 
 body {
   // Arc's overflow hidden on <body> messes up position sticky
@@ -17,7 +17,7 @@ body {
 }
 
 .titleslide {
-  height: 100%;
+  height: 100vh;
   width: 100%;
   background: center/cover no-repeat url("../illos/v2.png");
 }
