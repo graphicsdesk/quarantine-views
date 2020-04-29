@@ -30,19 +30,36 @@
       </switch>
     </each>
   </div>
-
-  <if condition="USE_COVER_HED">
-    <include src="partials/header-cover.html"></include>
-  </if>
-  <else>
-    <include src="partials/header.html"></include>
-  </else>
-
+  <div class="titleslide">
+    <if condition="USE_COVER_HED">
+      <include src="partials/header-cover.html"></include>
+    </if>
+    <else>
+      <include src="partials/header.html"></include>
+    </else>
+  </div>
   <div class="story">
+    <div class="intro">
+      <p>
+        On March 15, students were asked to pack up our rooms and return home. In the weeks since, the meaning of home
+        and
+        the meaning of being a part of the Columbia community have been put to the test of time and distance.
+      </p>
+      <p>
+        In the era of sheltering in place, no longer does the world outside simply determine the views from our windows;
+        the views from our windows shape our perspectives of the world. We asked our illustrators on lockdown across the
+        globe to draw what they see from their windows, giving us a glimpse into how they feel about living in this
+        strange moment in history. Similarities reveal themselves through views of forests thousands of miles apart
+        turning green together, while feelings of tranquility, fear, and relief struggle for the spotlight.
+      </p>
+      <p>
+        Perhaps learning to maintain a sense of community without the foundation of a physical space can teach us to
+        appreciate the different places from which we come when we step foot on campus again.
+      </p>
+    </div>
     <each loop="item in body">
       <switch expression="item.type">
         <case n="'text'">
-          <include src="partials/paragraph.html"></include>
         </case>
         <case n="'subhed'">
           <include src="partials/subhed.html"></include>

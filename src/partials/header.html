@@ -1,12 +1,9 @@
-<header class="g-body">
-  <h1 class="headline">{{ headline }}</h1>
-  <if condition="typeof deck !== 'undefined'">
-    <p class="deck">{{ deck }}</p>
-  </if>
+<header>
   <p class="byline inline-credits">
     <each loop="item in typeof byline === 'undefined' ? [] : byline.split('\n')">
       <span>{{{ item }}}</span>
     </each>
   </p>
-  <p class="pub-date">{{ date }}</p>
+  <p>{{ date }}</p>
+  <p class="deck">Inspired by “17 Artists Capture a Surreal New York From Their Windows” by the <i>New York Times</i></p>
 </header>

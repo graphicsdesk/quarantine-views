@@ -10,7 +10,15 @@
         "body": [
           {
             "type": "text",
-            "value": "Can we include a little intro paragraph here about how things have changed in time of corona, people are across the world, spec illos have come together to reflect on blah balh"
+            "value": "On March 15, students were asked to pack up our rooms and return home. In the weeks since, the meaning of home and the meaning of being a part of the Columbia community have been put to the test of time and distance."
+          },
+          {
+            "type": "text",
+            "value": "In the era of sheltering in place, no longer does the world outside simply determine the views from our windows; the views from our windows shape our perspectives of the world. We asked our illustrators on lockdown across the globe to draw what they see from their windows, giving us a glimpse into how they feel about living in this strange moment in history. Similarities reveal themselves through views of forests thousands of miles apart turning green together, while feelings of tranquility, fear, and relief struggle for the spotlight."
+          },
+          {
+            "type": "text",
+            "value": "Perhaps learning to maintain a sense of community without the foundation of a physical space can teach us to appreciate the different places from which we come when we step foot on campus again."
           },
           {
             "type": "quote",
@@ -102,8 +110,7 @@
           }
         ],
         "headline": "Views from quarantine",
-        "deck": "We asked 11 Spectator illustrators sheltering in place across the world to show us what they see from their windows.",
-        "date": "",
+        "date": "April XX, 2020",
         "byline": "Produced by <a href=\"https://www.columbiaspectator.com/contributors/Helen-Yang/\">Helen Yang</a> and <a href=\"https://www.columbiaspectator.com/contributors/Hong-Sen-Du/\">Hong Sen Du</a>",
         "USE_NEWS_NAV": false,
         "USE_EYE_NAV": false,
