@@ -1,0 +1,11 @@
+<div class="section {{ item.value.id && parseInt(item.value.id.slice(5)) % 2 === 1 ? 'odd-section' : 'even-section' }}">
+  <div class="illo" id="{{item.value.id}}"></div>
+  <div class="text">
+    <p class="quote">
+      {{{ item.value.quote }}}
+    </p>
+    <p class="quote author">
+      {{{ item.value.author }}}
+    </p>
+  </div>
+</div>
