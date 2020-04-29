@@ -7,9 +7,102 @@
       "root": "./src/partials",
       "locals": {
         "top": {},
-        "body": {},
-        "headline": "Views from Quarantine",
-        "deck": "We asked 11 Spec illustrators sheltering in place across the world to draw what they see from their windows.",
+        "body": [
+          {
+            "type": "text",
+            "value": "Can we include a little intro paragraph here about how things have changed in time of corona, people are across the world, spec illos have come together to reflect on blah balh"
+          },
+          {
+            "type": "quote",
+            "value": {
+              "id": "quote1",
+              "quote": "“My space to explore has abruptly shrunk from NYC to my little room, and the suburbia outside my window seems distant and unfamiliar. Luckily, my cat constantly accompanies me in my endeavors to make the best use of my space (she slept behind me while I was painting this)!”",
+              "author": "—Ashley Jiao, New Jersey"
+            }
+          },
+          {
+            "type": "quote",
+            "value": {
+              "id": "quote2",
+              "quote": "“It’s weird how normal everything outside looks and how normal I feel after having been inside for weeks.”",
+              "author": "—Natalie Tak, Massachusetts"
+            }
+          },
+          {
+            "type": "quote",
+            "value": {
+              "id": "quote3",
+              "quote": "“Diesel (my dog) is so excited about quarantine because everyone is staying home with him.”",
+              "author": "—Tina Wang, Taipei"
+            }
+          },
+          {
+            "type": "quote",
+            "value": {
+              "id": "quote4",
+              "quote": "“Waking up every morning to loud banging and screeching chainsaws—guess construction doesn't stop in quarantine.”",
+              "author": "—Angela Wei, Vancouver"
+            }
+          },
+          {
+            "type": "quote",
+            "value": {
+              "id": "quote5",
+              "quote": "“It was a bit frightening to look out my window one day and see that the leaves were starting to grow back. I had lost track of time.”",
+              "author": "—Helen Yang, New York"
+            }
+          },
+          {
+            "type": "quote",
+            "value": {
+              "id": "quote6",
+              "quote": "“It's strange, but New York felt more like home than this place ever did (not only because my nerdy architect mind hates everything about the design in suburbia).”",
+              "author": "—Robert Hunter, Georgia"
+            }
+          },
+          {
+            "type": "quote",
+            "value": {
+              "id": "quote7",
+              "quote": "“At times I feel trapped in this indefinite pause, and then I look over at the trees outside my window, still swaying and totally unbothered.”",
+              "author": "—Ellie Soh, Georgia"
+            }
+          },
+          {
+            "type": "quote",
+            "value": {
+              "id": "quote8",
+              "quote": "“I feel like time has stopped. My sense of the immediate future has been taken away. But weirdly, that’s a relief.”",
+              "author": "—Liz Nichols, Colorado"
+            }
+          },
+          {
+            "type": "quote",
+            "value": {
+              "id": "quote9",
+              "quote": "“Basking with my cat in the warm sunlight, I wonder if spring flowers will bloom again by the time this all ends.”",
+              "author": "—Brenda Huang, Pennsylvania"
+            }
+          },
+          {
+            "type": "quote",
+            "value": {
+              "id": "quote10",
+              "quote": "“I can’t really see anything.”",
+              "author": "—Aaron Jackson, New York"
+            }
+          },
+          {
+            "type": "quote",
+            "value": {
+              "id": "quote11",
+              "quote": "“As an angsty teen I wrote on one of the pines, “time is a big tree” and I’ve never felt the sentiment more. My view has lately been gray, with overcast skies peering through the foliage, but I’m still looking out for color.”",
+              "author": "—Liza Evseeva, Maryland"
+            }
+          }
+        ],
+        "headline": "Views from quarantine",
+        "deck": "We asked 11 Spectator illustrators sheltering in place across the world to show us what they see from their windows.",
         "date": "",
         "byline": "Produced by Helen Yang and Hong Sen Du",
         "USE_NEWS_NAV": false,

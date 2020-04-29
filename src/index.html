@@ -50,29 +50,48 @@
         <case n="'image'">
           <include src="partials/image.html"></include>
         </case>
-        <case n="'graphic'">
-          <div class="graphic">
-            <if condition="item.value.asset === 'graphic-name.html'">
-              <include src="graphic-name.html"></include>
-            </if>
-          </div>
+
+        <case n="'quote'">
+          <if condition="item.value.id === 'quote1'">
+            <include src="partials/quotewhite.html"></include>
+          </if>
+          <if condition="item.value.id === 'quote2'">
+            <include src="partials/quoteblack.html"></include>
+          </if>
+          <if condition="item.value.id === 'quote3'">
+            <include src="partials/quotewhite.html"></include>
+          </if>
+          <if condition="item.value.id === 'quote4'">
+            <include src="partials/quoteblack.html"></include>
+          </if>
+          <if condition="item.value.id === 'quote5'">
+            <include src="partials/quotewhite.html"></include>
+          </if>
+          <if condition="item.value.id === 'quote6'">
+            <include src="partials/quoteblack.html"></include>
+          </if>
+          <if condition="item.value.id === 'quote7'">
+            <include src="partials/quotewhite.html"></include>
+          </if>
+          <if condition="item.value.id === 'quote8'">
+            <include src="partials/quoteblack.html"></include>
+          </if>
+          <if condition="item.value.id === 'quote9'">
+            <include src="partials/quotewhite.html"></include>
+          </if>
+          <if condition="item.value.id === 'quote10'">
+            <include src="partials/quoteblack.html"></include>
+          </if>
+          <if condition="item.value.id === 'quote11'">
+            <include src="partials/quotewhite.html"></include>
+
+          </if>
         </case>
       </switch>
     </each>
   </div>
+  <!--
 
-  <div class="section">
-    <div class="illo" id="first"></div>
-    <div class="text odd">
-      <p class="quote white"> “My space to explore has abruptly shrunk from NYC to my little room, and the suburbia
-        outside my
-        window seems
-        distant and unfamiliar. Luckily, my cat constantly accompanies me in my endeavors to make the best of my space
-        (she slept behind me while I was painting this)!” </p>
-
-      <p class="author white">—Ashley Jiao, New Jersey</p>
-    </div>
-  </div>
 
   <div class="section">
     <div class="text even">
@@ -181,7 +200,7 @@
     <div class="illo" id="tenth"></div>
   </div>
 
-
+-->
   <div class="spectate-dev-footer">
     <a href="{{ DOC_URL }}" target="_blank">Doc</a>
   </div>
