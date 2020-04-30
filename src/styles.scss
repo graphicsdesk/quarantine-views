@@ -10,6 +10,10 @@ body {
   overflow-x: visible !important;
 }
 
+article > p:empty {
+  margin: 0;
+}
+
 .deck {
   a {
     color: #121212;
